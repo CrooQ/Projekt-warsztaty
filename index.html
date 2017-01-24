@@ -1,72 +1,195 @@
 <!DOCTYPE html>
-<html lang="pl-PL">
+<html lang='pl-PL'>
 <head>
-    <meta charset="UTF-8">
+    <meta charset='UTF-8'>
     <title>CodersLab</title>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' href='css/reset.css'>
+    <link rel='stylesheet' href='css/style.css'>
     
 </head>
 <body>
-    <header class="container1 clearfix">
-        <div class="logo">sit <span class="logo-text-color"><strong>on</strong></span> chair</div>
-        <nav class="menu-nav">
-            <ul>
-               <li><a href="#">o firmie</a>
-                   <ul>
-                   <li><a href="#">Aktualności</a></li>
-                   <li><a href="#">Nasz team</a></li>
-                   <li><a href="#">Historia</a></li>
+
+    <header class='container1 upper-txt clearfix'>
+       <!--Logo-->
+        <div class='logo' href='#'>Sit <span class='green-txt bold-txt'>on</span> chair</div>
+        <!--Menu-->
+        <nav>
+            <ul class='menu'>
+               <li><a href='#'>o firmie</a>
+                   <ul class='submenu cap-txt'>
+                   <div class='arrow'></div>
+                   <li><a href='#'>Aktualności</a></li>
+                   <li><a href='#'>Nasz team</a></li>
+                   <li><a href='#'>Historia</a></li>
                    </ul>
                 </li>
-                <li><a href="#">galeria</a></li>
-                <li><a href="#">kontakt</a></li>
+                <li><a href='#'>galeria</a></li>
+                <li><a href='#'>kontakt</a></li>
             </ul>
         </nav>
     </header>
     
     <hgroup>
-        <div class="slider-container">
-            <div class="back-button-cont">
-                <div class="back-button">&lt;</div>
+       <!--Slider-->
+        <div class='slider-container'>
+           
+            <div class='back-button-cont'>
+                <div class='back-button'>&lt;</div>
             </div>
-            <div class="slider-img-cont">
-                <div class="chair-img">
-                    <img src="images/black_chair.png">
+            <div class='slider-img-cont'>
+                <div class='chair-img'>
+                    <img src='images/black_chair.png'>
                 </div>
             </div>
-            <div class="slider-text-cont">
-                <div id="slider-title">
-                    sit <span class="logo-text-color"><strong>on</strong></span> our <span class="logo-text-color"><strong>chair</strong></span>
+            <div class='slider-text-cont'>
+                <div id='slider-title' class='upper-txt'>
+                    sit <span class='logo-text-color green-txt bold-txt'>on</span> our <span class='logo-text-color green-txt bold-txt'>chair</span>
                 </div>
-                <div id="slider-text">
+                <div id='slider-text'>
                 Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor.     
                 </div>
-                <div class="slider-button">Zobacz więcej</div>
+                <div class='slider-button upper-txt'>Zobacz więcej</div>
             </div>
-            <div class="forward-button-cont">
-                <div class="forward-button">&gt;</div>
+            <div class='forward-button-cont'>
+                <div class='forward-button'>&gt;</div>
             </div>
         </div>
     </hgroup>
     
-    <section class="input-box-container">
-        <div class="box-container">
-            <div class="box1">
-                <img src="images/box1_img.jpg">
+    <!--Images & Text-->
+    <section class='input-box-container clearfix'>
+       
+        <div class='box-container'>
+            
+               <div class='box1'>
+                <div class='white-stripe'></div>
+                <p class='chair-text'>Chair CLAIR</p>
+                <div class='green-stripe'></div>
             </div>
-            <div class="box2">
-                <img src="images/box2_img.jpg">
+            
+            <div class='box2'>
+                <div class='white-stripe'></div>
+                <p class='chair-text'>Chair MARGARITA</p>
+                <div class='green-stripe'></div>
             </div>
-            <div class="box3">
-                <h3>Finds all inputs</h3>
-                <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. </p>
-                
-                <p>Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien.
-                </p>
+            
+            <div class='box3'>
+                <h2 class='box3-h2'>Finds all inputs</h2>
+                <div class='green-stripe-text'></div>
+                <p class='p-box3'>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis.
+                Aliquam erat ac ipsum. Integer aliquam purus Ut molestie a, ultricies porta urna. 
+                <br>
+                <br>Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor.</p>
             </div>
         </div>
     </section>
+    
+    <!--Prices box-->
+    <section class='price-container clearfix'>
+        <h2 class='price-h2 upper-txt'>Cennik
+            <div class='green-stripe-price'></div>
+        </h2>
+        <div class='price-box'>
+        <!--Box 1-->
+        <div class='price price-grey'>
+            <div class='circle circle-out'></div>
+            <div class='circle circle-in'></div>
+            <h3 class='price-title green-txt upper-txt'>Basic plan</h3>
+            <div class='price-circle'>
+                <p class='price-amount bold-txt'>
+                  85<sup>99</sup>
+                </p>
+                <p class='price-per-mth upper-txt bold-txt'>
+                  PLN/msc
+                </p>
+              </div>
+            <ul class='price-list'>
+                <li>Zakup towaru &#43; dowóz</li>
+                <li>Serwis</li>
+            </ul>
+            <a class='price-btn green-bgn upper-txt' href='#' title='Dołącz'>Dołącz</a>
+        </div>
+        <!--Box 2-->
+        <div class='price price-middle'>
+            <div class='circle circle-out'></div>
+            <div class='circle circle-in'></div>
+            <h3 class='price-title upper-txt'>Standard plan</h3>
+            <div class='price-circle green-txt'>
+                <p class='price-amount bold-txt'>
+                  95<sup>99</sup>
+                </p>
+                <p class='price-per-mth upper-txt bold-txt'>
+                  PLN/msc
+                </p>
+            </div>
+            <ul class='price-list'>
+                <li>Zakup towaru &#43; dowóz</li>
+                <li>Serwis</li>
+                <li>Gwarancja 5 lat</li>
+            </ul>
+            <a class='price-btn green-txt upper-txt' href='#' title='Dołącz'>Dołącz</a>
+        </div>
+        <!--Box 3-->
+        <div class='price price-grey'>
+            <div class='circle circle-out'></div>
+            <div class='circle circle-in'></div>
+            <h3 class='price-title green-txt upper-txt'>Advance plan</h3>
+            <div class='price-circle'>
+                <p class='price-amount bold-txt'>
+                  211<sup>00</sup>
+                </p>
+                <p class='price-per-mth upper-txt bold-txt'>
+                  PLN/msc
+                </p>
+            </div>
+            <ul class='price-list'>
+                <li>Zakup towaru &#43; dowóz</li>
+                <li>Serwis</li>
+                <li>Gwarancja 6 lat</li>
+                <li>Porady projektanta</li>
+            </ul>
+            <a class='price-btn green-bgn upper-txt' href='#' title='Dołącz'>Dołącz</a>
+            </div>
+      </div>
+    </section>
+            
+     <!-- Contct -->
+    <section class='contact-container'>
+        <div class='box-container contact clearfix'>
+        <div class='red-chair'></div>
+            <h2 class='contact-h2 upper-txt'>Kontakt
+                <div class='green-stripe-contact'></div>
+            </h2>
+            <form>
+                <input type='text' name='name' placeholder='Imię'>
+                <input type='text' name='email' placeholder='email'>
+                <textarea rows='4' name='message' placeholder='Wiadomość'></textarea>
+                <input type='checkbox'>
+                <div class='agree-text'>
+                Zgadzam się na przetwarzanie<br>danych osobowych
+                </div>
+                <input type='submit' value='Wyślij' class='contact-submit bold-txt upper-txt green-bgn'>
+            </form>
+        </div>
+    </section>
+  
+
+    <!-- Footer -->
+    <footer class='footer-container'>
+        <div class='footer'>
+            <p class='copyright'>
+            Copyright 2014 | All rights reserved - Sit on Chair
+            </p>
+            <p class='footer-logo upper-txt'>
+            Sit <span class='bold-txt'>on</span> Chair
+            </p>
+            <ol class='footer-social'>
+                <li><img src='images/flickr.png'></li>
+                <li><img src='images/vimeo.png'></li>
+                <li><img src='images/pinterest.png'></li>
+                <li><img src='images/twitter.png'></li>
+            </ol>
+        </div>
+    </footer>   
 </body>
 </html>
