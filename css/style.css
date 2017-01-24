@@ -19,6 +19,7 @@
     font-style: normal;
 
 } 
+<<<<<<< HEAD
 
 * {
   font-family: 'ralewayregular', Arial, sans-serif;
@@ -26,13 +27,26 @@
 
 /*_______________ *General* _________________*/
 .container1, .slider-container, .input-box-container, .price-container, .contact-container, .footer-container{
+=======
+
+* {
+  font-family: 'ralewayregular', Arial, sans-serif;
+}
+
+/*_______________ *General* _________________*/
+.container1, .slider-container, .input-box-container, .price-container, .footer-container{
+>>>>>>> origin/master
     width: 100%;
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .box-container, .footer{
     position: relative;
     display: block;
+=======
+.box-container{
+>>>>>>> origin/master
     width: 80%;
     margin: 0 auto;
 }
@@ -130,7 +144,11 @@ sup {
     
 }
 
+<<<<<<< HEAD
 /*________________ *Hgroup* _________________*/
+=======
+
+>>>>>>> origin/master
 /*Slider*/
 .slider-container{
     height: 450px;
@@ -219,7 +237,11 @@ sup {
     margin-top: 30px;
 }
 
+<<<<<<< HEAD
 /*________________ *Section Box* _________________*/
+=======
+
+>>>>>>> origin/master
 /*Box & Text block*/
 .box-container{
     height: 350px;
@@ -299,13 +321,20 @@ sup {
     top: 70px;
 }
 
+<<<<<<< HEAD
 /*________________ *Section Price* _________________*/
+=======
+>>>>>>> origin/master
 /*Prices block*/
 
 .price-container {
     
     position: relative;
     padding-top: 3.5%;
+<<<<<<< HEAD
+=======
+    border: 2px solid blue;
+>>>>>>> origin/master
     height: 700px;
     background: #f2f2f2;
 }
@@ -317,7 +346,11 @@ sup {
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .price-h2 {
+=======
+.price-h2{
+>>>>>>> origin/master
     position: absolute;
     left: 10%;
     color: dimgray;
@@ -329,8 +362,13 @@ sup {
     height: 8px;
     background: #20B2AA;
     position: absolute;
+<<<<<<< HEAD
     top: 30px;
 
+=======
+    top: 12%;
+    left: 10%;
+>>>>>>> origin/master
 }
 
 .price {
@@ -471,6 +509,7 @@ sup {
     margin-left: 9%;
     margin-right: 9%;
 }
+<<<<<<< HEAD
 
 
 /*________________ *Section Contact* _________________*/
@@ -591,3 +630,5 @@ input[type='submit'] {
     color: grey;
     margin: 19px 0 0 10px;
 }
+=======
+>>>>>>> origin/master
